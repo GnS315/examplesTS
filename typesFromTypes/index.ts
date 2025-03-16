@@ -104,3 +104,13 @@ type PersonWithIsPrefix = {
 //   isAge: number;
 //   isLocation?: string;
 // }
+
+// *************************
+
+// 7. Template Literal Types
+// позволяет создать строки литералы на основе шаблонов
+
+type First = 'First'
+type Second = 'Second'
+
+type FirstSecond = `${First} ${Second}` // 'First Second'
